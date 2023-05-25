@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* custom styles */
+
+/* Navigation */
+.navbar {
+  background-image: url('https://images.pexels.com/photos/209431/pexels-photo-209431.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-position:25%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.nav-link {
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+  border-style:solid;
+}
+.nav-link:hover{
+  background-color: darkgray;
+}
+
+
+/*Restaurant List*/
+.ListPage {
+  text-align: center;
+}
+
+.ListHeader{
+  color: black;
+}
+
+/*Main imgs*/
+.imgOne {
+  background-image: url('https://images.pexels.com/photos/914388/pexels-photo-914388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.imgOneHeader {
+  text-align: center;
+}
+
+.imgTwo {
+  background-image: url('https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.imgTwoHeader {
+  text-align: center;
+}
+
+.imgThree {
+  background-image: url('https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.imgThreeHeader{
+  text-align: center;
+}
+
+/*Add Restaurant page*/
+.addRestaurant{
+  text-align: center;
+  color: white;
+}
+
+.addFunction{
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/257794/pexels-photo-257794.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Restaurant Detail page*/
+.detailHeader{
+  text-align: center;
+}
+
+.mb-3{
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/1352251/pexels-photo-1352251.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25%;
+}
+
+.notFound {
+  text-align: center;
+}
+
+.HomeHeader {
+  text-align: center;
+}
